@@ -1,0 +1,369 @@
+body {
+    overflow-x: hidden;
+}
+
+p {
+    line-height: 1.75;
+}
+
+/* ----------------------- */
+/* -------CSS DE NAV------ */
+/* ----------------------- */
+
+.logo {
+    font-family: 'Montez', cursive;
+    color: deeppink !important;
+}
+
+.nav-link {
+    font-size: 1rem !important;
+    font-weight: 500;
+}
+
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+    padding: 0.75rem;
+    font-size: 0.75rem;
+    background-color: fuchsia !important;
+    border: 0;
+}
+
+#mainNav .navbar-brand {
+    color: fuchsia !important;
+    font-weight: 700;
+    letter-spacing: 0.0625em;
+}
+
+#mainNav .navbar-brand a {
+    height: 1.5rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.95rem;
+    letter-spacing: 0.0625em;
+    color: #fff;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: fuchsia !important;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        color: fuchsia !important;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border: none;
+        background-color: transparent;
+        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+
+    #mainNav .navbar-brand {
+        font-size: 2em;
+        transition: font-size 0.3s ease-in-out;
+    }
+
+    #mainNav .navbar-brand a {
+        height: 2rem;
+        transition: height 0.3s ease-in-out;
+    }
+
+    /* scroll */
+
+    #mainNav.navbar-scrolled {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #212529;
+    }
+
+    #mainNav.navbar-scrolled .navbar-brand {
+        font-size: 1.25em;
+    }
+
+    #mainNav.navbar-scrolled .navbar-brand,
+    #mainNav.navbar-scrolled .navbar-brand a {
+        height: 2rem;
+    }
+
+    #mainNav .navbar-nav .nav-item {
+        margin-right: 1rem;
+    }
+
+    #mainNav .navbar-nav .nav-item:last-child {
+        margin-right: 0;
+    }
+}
+
+/* ----------------------- */
+/* ----CSS DE MASTHEAD---- */
+/* ----------------------- */
+
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+}
+
+header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
+
+    header.masthead .masthead-subheading {
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 2.25rem;
+        margin-bottom: 2rem;
+    }
+
+    header.masthead .masthead-heading {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+/* ----------------------- */
+/* ---CSS DE SERVICIOS---- */
+/* ----------------------- */
+
+.page-section {
+    padding: 6rem 0;
+}
+
+.page-section h2.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.page-section h3.section-subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    /* font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" 1; */
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    section {
+        padding: 9rem 0;
+    }
+}
+
+::-moz-selection {
+
+    text-shadow: none;
+}
+
+::selection {
+
+    text-shadow: none;
+}
+
+.text-pink {
+    color: fuchsia !important;
+}
+
+/* ----------------------- */
+/* -------CSS DE BTN------ */
+/* ----------------------- */
+
+.btn-pink {
+    background-color: fuchsia !important;
+}
+
+.btn-xl {
+    padding: 1.25rem 2.5rem !important;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    font-size: 1.125rem !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+
+.btn-xl:hover {
+    background-color: deeppink !important;
+}
+
+.btn-xl:focus,
+.btn-xl.focus {
+    border-color: fuchsia !important;
+    box-shadow: 0 0 0 0.2rem indianred !important;
+}
+
+.btn-xl.disabled,
+.btn-xl:disabled {
+    color: #fff !important;
+    background-color: fuchsia !important;
+    border-color: fuchsia !important;
+}
+
+.btn-xl:not(:disabled):not(.disabled):active,
+.btn-xl:not(:disabled):not(.disabled).active,
+.show>.btn-xl.dropdown-toggle {
+    background-color: deeppink !important;
+    border-color: deeppink !important;
+}
+
+.btn-xl:not(:disabled):not(.disabled):active:focus,
+.btn-xl:not(:disabled):not(.disabled).active:focus,
+.show>.btn-xl.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem indianred !important;
+}
+
+.btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+}
+
+
+/* ----------------------- */
+/* ----CSS DE CONTACTO------ */
+/* ----------------------- */
+
+section#contact {
+    background-color: #212529;
+}
+
+section#contact .section-heading {
+    color: #fff;
+}
+
+section#contact form#contactForm .form-group {
+    margin-bottom: 1.5rem;
+}
+
+section#contact form#contactForm .form-group input,
+section#contact form#contactForm .form-group textarea {
+    padding: 1.25rem;
+}
+
+section#contact form#contactForm .form-group input.form-control {
+    height: auto;
+}
+
+section#contact form#contactForm .form-group-textarea {
+    height: 100%;
+}
+
+section#contact form#contactForm .form-group-textarea textarea {
+    height: 100%;
+    min-height: 10rem;
+}
+
+section#contact form#contactForm p.help-block {
+    margin: 0;
+}
+
+section#contact form#contactForm .form-control:focus {
+
+    box-shadow: none;
+}
+
+section#contact form#contactForm ::-webkit-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+}
+
+section#contact form#contactForm :-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+}
+
+section#contact form#contactForm ::-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+}
+
+section#contact form#contactForm :-ms-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+
+
+/* ----------------------- */
+/* ----CSS DE ANIMACION------ */
+/* ----------------------- */
+
+.animacion {
+    
+}
+
+.card:hover {
+    box-shadow: 0.5px 0.5px 0.5px 0.5px gray;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+
