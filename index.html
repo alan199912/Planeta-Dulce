@@ -51,7 +51,7 @@
 
         <!-- Services -->
 
-        <section class="page-section" id="servicios">
+        <section class="page-section bg-transparent" id="servicios">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Servicios</h2>
@@ -61,18 +61,23 @@
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-pink"></i>
-                            <i class="fas fa-cookie fa-stack-1x fa-inverse"></i>
+                            <i class="fas fa-box fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Cookies</h4>
-                        <p class="text-muted">1</p>
+                        <h4 class="my-3">Envio</h4>
+                        <p class="text-muted">Coordinamos el envio</p>
+                        <p class="text-muted">Zona avellaneda</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-pink"></i>
-                            <i class="fas fa-candy-cane fa-stack-1x fa-inverse"></i>
+                            <!-- <i class="fas fa-dollar-sign fa-stack-1x fa-inverse"></i> -->
+                            <!-- <i class="fas fa-wallet fa-stack-1x fa-inverse"></i> -->
+                            <i class="fas fa-money-check-alt fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Dulce</h4>
-                        <p class="text-muted">2</p>
+                        <h4 class="my-3">Medios de pago</h4>
+                        <p class="text-muted">Mecado Pago</p>
+                        <p class="text-muted">Pay pal</p>
+                        <p class="text-muted">Efectivo</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -80,7 +85,7 @@
                             <i class="fas fa-birthday-cake fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Torta de cumpleaños</h4>
-                        <p class="text-muted">3</p>
+                        <p class="text-muted">Hacemos tortas personalizadas</p>
                     </div>
                 </div>
             </div>
@@ -157,10 +162,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-center mt-5">
-                    <h3 class="section-subheading text-muted">Proximamente más</h3>
-                </div>
             </div>
+        </section>
+
+        <!-- About -->
+
+        <section class="page-section" id="sobreNosotros">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Sobre Nosotros</h2>
+            </div>
+            <p class="text-center">
+                Somos un emprendimiento familiar
+            </p>
         </section>
 
         <!-- Contact-->
@@ -168,55 +181,32 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contacta con nosotros</h2>
-                    <h3 class="section-subheading text-muted">Contactanos para tu siguiente pedido</h3>
+                    <h3 class="section-subheading text-muted">Visita nuestras redes sociales</h3>
                 </div>
-                <form id="contactForm" name="contactMessage" novalidate="novalidate">
-                    <div class="row aling-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="name" placeholder="Su Nombre" required="required" data-validation-required-message="Por favor ingrese su nombre.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="email" placeholder="Su Email" required="required" data-validation-required-message="Por favor ingrese su email.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <input type="text" class="form-control" id="phone" placeholder="Su Teléfono" required="required" data-validation-required-message="Por favor ingrese su teléfono.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" placeholder="Su Pedido/Mensaje" required="required" data-validation-required-message="Por favor ingrese su pedido/mensaje."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.instagram.com/planeta.dulce.ok/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.facebook.com/Planeta.dulce.ok"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-dark btn-social mx-2" target="_blank"><i class="fab fa-whatsapp "></i></a>
+                        <a href="mailto:planeta_dulce01@hotmail.com" class="btn btn-dark btn-social mx-2" target="_blank"><i class="far fa-envelope fa-inverse"></i></a>
                     </div>
-                    <div class="text-center">
-                        <div id="success"></div>
-                        <button class="btn btn-pink btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar</button>
-                    </div>
-                </form>
+
+                </div>
             </div>
         </section>
         
-
-
-
         <!-- footer -->
 
         <footer class="footer py-4 ">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left" id="year"></div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.instagram.com/planeta.dulce.ok/"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.facebook.com/Planeta.dulce.ok"><i class="fab fa-facebook-f"></i></a>
+                    <div class="col-lg-4 text-lg-left" ><img src="assets/img/PDlogo.jpeg" alt="" height="50px"></div>
+                    <div class="col-lg-4 my-3 my-lg-0" id="year">
+                        
                     </div>
                     <div class="col-lg-4 text-lg-right">
-                        <a class="mr-3" href="assets/pp/privacidadPolitica.pdf" target="_blank">Privacidad Politica</a>
-                        <a href="#!">Terminos de uso</a>
+                        <a class="mr-3" href="assets/pp&tu/privacidadPolitica.pdf" target="_blank">Privacidad Politica</a>
+                        <a href="assets/pp&tu/terminosUso.pdf" target="_blank">Terminos de uso</a>
                     </div>
                 </div>
             </div>
