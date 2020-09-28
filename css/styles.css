@@ -240,15 +240,39 @@ header.masthead .masthead-heading {
 }
 
 .btn-social {
-    height: 2.5rem;
-    width: 2.5rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    border-radius: 100%;
+    border-color: fuchsia !important;
 }
 
+
+.btn-social:hover {
+    background-color: deeppink !important;
+}
+
+.btn-social:focus,
+.btn-social.focus {
+    border-color: fuchsia !important;
+    box-shadow: 0 0 0 0.2rem indianred !important;
+}
+
+.btn-social.disabled,
+.btn-social:disabled {
+    color: #fff !important;
+    background-color: fuchsia !important;
+    border-color: fuchsia !important;
+}
+
+.btn-social:not(:disabled):not(.disabled):active,
+.btn-social:not(:disabled):not(.disabled).active,
+.show>.btn-xl.dropdown-toggle {
+    background-color: deeppink !important;
+    border-color: deeppink !important;
+}
+
+.btn-social:not(:disabled):not(.disabled):active:focus,
+.btn-social:not(:disabled):not(.disabled).active:focus,
+.show>.btn-xl.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem indianred !important;
+}
 
 /* ----------------------- */
 /* ----CSS DE CONTACTO------ */
